@@ -61,6 +61,13 @@ body {
 }
 
 
+<<<<<<< HEAD
+=======
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+>>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -74,7 +81,12 @@ body {
 }
 
 
+<<<<<<< HEAD
 
+=======
+/* Featurettes
+------------------------- */
+>>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
@@ -105,10 +117,18 @@ body {
     padding-left: 0;
   }
 
+<<<<<<< HEAD
+=======
+  /* The navbar becomes detached from the top, so we round the corners */
+>>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
+<<<<<<< HEAD
+=======
+  /* Bump up size of carousel content */
+>>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
