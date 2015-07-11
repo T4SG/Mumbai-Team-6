@@ -18,12 +18,12 @@
             <li class="active"><a href="#"> Sort by <span class="sr-only">(current)</span></a></li>
 
             <br>
-            <li><a href="#">Climatic Resilience</a></li>
+            <li><a href="cli_res_retrieve.php">Climatic Resilience</a></li>
             <br>
-            <li><a href="#">Cost</a></li>
+            <li><a href="cost_retrieve.php">Cost</a></li>
             <br>
-            <li><a href="#">Willingness</a></li>
-          </ul>
+            <li><a href="will_retrieve.php">Willingness</a></li>
+            </ul>
     </div><!--  -->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">The School List</h1>
@@ -34,7 +34,7 @@
                 <tr>
                   <th>#</th>
                   <th>School name</th>
-                  <th>Climate Resilience</th>
+                  <th>Willingness</th>
                   <!--th>Header</th>
                   <th>Header</th>
                   <th>Header</th-->
@@ -43,7 +43,7 @@
               <tbody>
               
 <?php
-$query="select * from schools order by cli_res desc";
+$query="select * from schools order by will desc";
 $result=mysql_query($query);
 //$rows=mysql_fetch_row($result);
 //var_dump($rows);
@@ -53,7 +53,7 @@ while($row = mysql_fetch_row($result))
 
 ?>
 <tr>
-<td><?php echo $row[0]; ?></td><td><?php echo $row[1]; ?></td><td><?php echo $row[2]; ?></td>
+<td><?php echo $row[0]; ?></td><td><?php echo $row[1]; ?></td><td><?php echo $row[3]; ?></td>
 </tr>
 
 <?php
