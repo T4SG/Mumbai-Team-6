@@ -6,7 +6,7 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
+h1{font-size: 43px;}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -61,16 +61,6 @@ body {
 }
 
 
-<<<<<<< HEAD:frontend/forms.css
-<<<<<<< HEAD
-=======
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
->>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
-=======
->>>>>>> cded031985650d8533fb43d8135188ac4bed839d:frontend/css/forms.css
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -84,16 +74,7 @@ body {
 }
 
 
-<<<<<<< HEAD:frontend/forms.css
-<<<<<<< HEAD
 
-=======
-/* Featurettes
-------------------------- */
->>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
-=======
-
->>>>>>> cded031985650d8533fb43d8135188ac4bed839d:frontend/css/forms.css
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
@@ -124,24 +105,10 @@ body {
     padding-left: 0;
   }
 
-<<<<<<< HEAD:frontend/forms.css
-<<<<<<< HEAD
-=======
-  /* The navbar becomes detached from the top, so we round the corners */
->>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
-=======
->>>>>>> cded031985650d8533fb43d8135188ac4bed839d:frontend/css/forms.css
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
-<<<<<<< HEAD:frontend/forms.css
-<<<<<<< HEAD
-=======
-  /* Bump up size of carousel content */
->>>>>>> 26eb5aded10f4ad9205205627f26c5ebbb126ea0
-=======
->>>>>>> cded031985650d8533fb43d8135188ac4bed839d:frontend/css/forms.css
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
@@ -160,4 +127,5 @@ body {
 }
 #form{
 margin-top:10%;
-margin-left:15%;}
+margin-left:15%;
+font-size: 20px;}
