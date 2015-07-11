@@ -12,7 +12,7 @@
     <title>Carousel Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -25,7 +25,7 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="forms.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -52,9 +52,8 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Enter new school</a></li>
                     <li><a href="#">List all schools</a></li>
-                    <li><a href="#">logout</a></li>
+                    <li><a href="#">Logout</a></li>
                     <!--<li role="separator" class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
                     <li><a href="#">Separated link</a></li>
@@ -71,7 +70,10 @@
 	
 	
 	<div id="form">
-	<form action='#'>
+	<form action='survey.php' method='post'>
+	<h1> Enter the following details</h1>
+	Enter the name of the school:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text-box" name='school' id='school' cols='15'></input><br><br>
+	Enter the country to which school belongs:&nbsp&nbsp&nbsp&nbsp<input type="text-box" name='country' id='country' cols='15'></input><br>
 	<h1>Rate the following factors on a grade of 5</h1>
 	<br>
 	<p> Q1) How prone is the area to natural disasters?</p>
@@ -164,10 +166,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

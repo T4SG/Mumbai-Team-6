@@ -19,6 +19,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 CREATE TABLE IF NOT EXISTS `schools` (
   `sr_no` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
+  `country` varchar(100) NOT NULL,
+  `ngo` varchar(100) NOT NULL,
   `cli_res` int(11) NOT NULL,
   `cost` bigint(20) NOT NULL,
   `will` int(11) NOT NULL,
@@ -34,5 +36,8 @@ CREATE TABLE IF NOT EXISTS `schools` (
   `wsus_inf` int(11) NOT NULL DEFAULT '4',
   `wbeneficiary` int(11) NOT NULL DEFAULT '3',
   `wcomm_inv` int(11) NOT NULL DEFAULT '3',
-  `wprinci_inv` int(11) NOT NULL DEFAULT '3'
+  `wprinci_inv` int(11) NOT NULL DEFAULT '3',
+  `pic` varchar(100) NOT NULL,
+  `comment` varchar(1000) NOT NULL,
+  PRIMARY KEY (`sr_no`)
 );

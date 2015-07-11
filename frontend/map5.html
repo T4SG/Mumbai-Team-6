@@ -8,8 +8,10 @@
       html, body, #map-canvas {
         height: 100%;
         margin: 0px;
-        padding: 0px
+        padding: 0px;
+        
       }
+     
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
     <script>
@@ -32,11 +34,11 @@ function initialize() {
  * other.
  */
 var places = [
-  ['Japan', -35.890542, 139.274856, 4],
-  ['Indonesia', 0.173036, 106.259052, 5],
-  ['Nepal', 26.028249, 86.157507, 3],
-  ['Peru', 12.80010128657071, 77.28747820854187, 2],
-  ['Mexico', -19.950198, 99.259302, 1]
+  ['Japan', 35.890542, 139.274856, 4],
+  ['Indonesia', -10.173036, 106.259052, 5],
+  ['Nepal', 16.028249, 86.157507, 3],
+  ['Peru', -12.80010128657071, -77.28747820854187, 2],
+  ['Mexico', 18.950198, -99.259302, 1]
 ];
 
 function setMarkers(map, locations) {
@@ -50,7 +52,7 @@ function setMarkers(map, locations) {
   // increase in the X direction to the right and in
   // the Y direction down.
   var image = {
-    url: 'img/logo.png',
+    url: 'images/logo.png',
     // This marker is 20 pixels wide by 32 pixels tall.
     size: new google.maps.Size(10, 10),
     // The origin for this image is 0,0.
@@ -80,7 +82,7 @@ function setMarkers(map, locations) {
     });
 
     google.maps.event.addListener(marker, 'click', function() {
-               window.open("retrieve.php");
+               window.open("cli_res_retrieve.php");
             });
   }
 }
@@ -90,6 +92,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </script>
   </head>
   <body>
+   
     <div id="map-canvas"></div>
   </body>
 </html>
