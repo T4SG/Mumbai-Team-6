@@ -6,14 +6,19 @@
     <title>School List</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="css/dashboard-new.css" rel="stylesheet">
+    <link href="css/x.css" rel="stylesheet">
     <script src="js/ie-emulation-modes-warning.js"></script>
   </head>
 
 <body>
-
+<div class="row navbar_header">
+        <div class="col-lg-12">
+            <h1 style="color:white"><b>&nbsp;&nbsp;&nbsp;Happy Hearts Foundation</b></h1>
+        </div>
+</div><!-- header -->
 <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-4 col-md-3 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#"> Sort by <span class="sr-only">(current)</span></a></li>
 
@@ -26,8 +31,7 @@
           </ul>
     </div><!--  -->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">The School List</h1>
-
+          <h1 margin-left="30%" class="page-header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The School List</h1>
 
             <table class="table table-striped table-responsive">
               <thead>

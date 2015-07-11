@@ -1,0 +1,75 @@
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(SketchRockwell-Bold.ttf);
+}
+
+.grid {
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.grid .darken:hover img {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.grid .event:hover img {
+    opacity: 0.3;
+    cursor: pointer;
+}
+.event{
+    cursor: pointer;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.darken{
+    cursor: pointer;
+    margin-bottom: 37px;
+}
+
+.figure {
+    background-color: #428bca;
+}
+
+.featured-image{
+    width:50%;
+    height:90%;
+    /*width:300px;*/
+    /*height:340px;*/
+    opacity:1.0;
+}
+
+.featured-image-info{
+    position: absolute;
+    width: 50%;
+    left: 49%;
+    top: 10%;
+    height: 340px;
+}
+
+.events {
+    font-size:100px;
+    text-align:center;
+    /*background-color: rgba(68, 82, 87, 0.1);*/
+}
+
+
+.featured-image-info span {
+    top: 84px;
+    position: relative;
+    width:70%;
+    height:340px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.event-heading{
+    margin-top:30px;
+    color:#512DA8;
+    font-family:myFirstFont;
+    font-size:65px;
+}
