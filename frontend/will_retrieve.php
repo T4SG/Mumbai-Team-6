@@ -11,24 +11,28 @@
   </head>
 
 <body>
-
+<div class="row navbar_header">
+        <div class="col-lg-12">
+            <h1 style="color:white"><b>&nbsp;&nbsp;&nbsp;Happy Hearts Foundation</b></h1>
+        </div>
+</div><!-- header -->
 <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-4 col-md-3 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#"> Sort by <span class="sr-only">(current)</span></a></li>
-
-            <br>
-            <li><a href="cli_res_retrieve.php">Climatic Resilience</a></li>
-            <br>
+<li><a href="cli_res_retrieve.php">Climatic Resilience</a></li>
             <li><a href="cost_retrieve.php">Cost</a></li>
-            <br>
             <li><a href="will_retrieve.php">Willingness</a></li>
+            <li><a href="avl_retrieve.php">Available Resources</a></li>
+            <li><a href="sus_infra_retrieve.php">Sustainable Infrastructure</a></li>
+            <li><a href="ben_retrieve.php">Beneficiaries</a></li>
+            <li><a href="com_retrieve.php">Community involvement</a></li>           
+            <li><a href="princi_retrieve.php">Principal involvement</a></li>
             </ul>
     </div><!--  -->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">The School List</h1>
-
+           <h1 margin-left="30%" class="page-header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The School List</h1>
 
             <table class="table table-striped table-responsive">
               <thead>
