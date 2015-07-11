@@ -6,6 +6,7 @@
     <title>School List</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <link href="css/dashboard-new.css" rel="stylesheet">
+    <link href="css/x.css" rel="stylesheet">
     <script src="js/ie-emulation-modes-warning.js"></script>
   </head>
 
