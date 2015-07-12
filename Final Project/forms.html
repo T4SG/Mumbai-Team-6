@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/forms.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+  <div class="row navbar_header">
+        <div class="col-lg-12">
+            <h1 style="color:white"><b>&nbsp;&nbsp;&nbsp;Happy Hearts Foundation</b></h1>
+        </div>
+  </div><!-- header -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Happy Hearts Foundation</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <!--<li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li> -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">List all schools</a></li>
+                    <li><a href="#">Logout</a></li>
+                    <!--<li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li> -->
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+	
+	
+	<div id="form">
+	<form action='survey.php' method='post'>
+	<h1> Enter the following details</h1>
+	Enter the name of the school:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text-box" name='school' id='school' cols='15'></input><br><br>
+	Enter the country to which school belongs:&nbsp&nbsp&nbsp&nbsp<input type="text-box" name='country' id='country' cols='15'></input><br>
+	<h1>Rate the following factors on a grade of 5</h1>
+	<br>
+	<p> Q1) How prone is the area to natural disasters?</p>
+	<input type="radio" name="rad1" value="1"> Grade 1</input><br>
+	<input type="radio" name="rad2" value="2">Grade 2</input><br>
+	<input type="radio" name="rad3" value="3">Grade 3</input><br>
+	<input type="radio" name="rad4" value="4">Grade 4</input><br>
+	<input type="radio" name="rad5" value="5">Grade 5</input><br>
+	<br>
+	
+	<p> Q2)Estimated cost of rebuilding and maintenance of school</p>
+	<input type="radio" name="rad1" value="1"> less than 10000</input><br>
+	<input type="radio" name="rad2" value="2">10000-20000</input><br>
+	<input type="radio" name="rad3" value="3">20000-30000</input><br>
+	<input type="radio" name="rad4" value="4">30000-40000</input><br>
+	<input type="radio" name="rad5" value="5">40000 and higher</input><br>
+	<br>
+	
+	<p> Q3)Willingness of community</p>
+	<input type="radio" name="rad1" value="1"> Grade 1</input><br>
+	<input type="radio" name="rad2" value="2">Grade 2</input><br>
+	<input type="radio" name="rad3" value="3">Grade 3</input><br>
+	<input type="radio" name="rad4" value="4">Grade 4</input><br>
+	<input type="radio" name="rad5" value="5">Grade 5</input><br>
+	<br>
+	
+	
+	<p> Q4)Availability of resources for rebuilding</p>
+	<input type="radio" name="rad1" value="1"> Grade 1</input><br>
+	<input type="radio" name="rad2" value="2">Grade 2</input><br>
+	<input type="radio" name="rad3" value="3">Grade 3</input><br>
+	<input type="radio" name="rad4" value="4">Grade 4</input><br>
+	<input type="radio" name="rad5" value="5">Grade 5</input><br>
+	<br>
+	
+	<p> Q5)How sustaining the infrastructure is?</p>
+	<input type="radio" name="rad1" value="1"> Grade 1</input><br>
+	<input type="radio" name="rad2" value="2">Grade 2</input><br>
+	<input type="radio" name="rad3" value="3">Grade 3</input><br>
+	<input type="radio" name="rad4" value="4">Grade 4</input><br>
+	<input type="radio" name="rad5" value="5">Grade 5</input><br>
+	<br>
+	
+	<p> Q6) What is the impact on beneficiaries?</p>
+	<input type="radio" name="rad1" value="1"> Grade 1</input><br>
+	<input type="radio" name="rad2" value="2">Grade 2</input><br>
+	<input type="radio" name="rad3" value="3">Grade 3</input><br>
+	<input type="radio" name="rad4" value="4">Grade 4</input><br>
+	<input type="radio" name="rad5" value="5">Grade 5</input><br>
+	<br>
+	
+	<p> Q7) How much is the community involvement?</p>
+	<input type="radio" name="rad1" value="1"> Grade 1</input><br>
+	<input type="radio" name="rad2" value="2">Grade 2</input><br>
+	<input type="radio" name="rad3" value="3">Grade 3</input><br>
+	<input type="radio" name="rad4" value="4">Grade 4</input><br>
+	<input type="radio" name="rad5" value="5">Grade 5</input><br>
+	<br>
+	
+	<p> Q8)Response and involvement of principal</p>
+	<input type="radio" name="rad1" value="1"> Grade 1</input><br>
+	<input type="radio" name="rad2" value="2">Grade 2</input><br>
+	<input type="radio" name="rad3" value="3">Grade 3</input><br>
+	<input type="radio" name="rad4" value="4">Grade 4</input><br>
+	<input type="radio" name="rad5" value="5">Grade 5</input><br>
+	<br>
+	<br><br>
+	<form action="demo_form.asp">
+  <input type="file" name="pic" accept="image/*">
+  <input type="submit">
+</form>
+
+	<textarea name="comment" form="usrform" rows="5" cols="100"> Comments: </textarea>
+	</div>
+<center>
+<br><br>
+	<input type="submit" onclick="alert('The form will be submitted')" value="submit">
+	</form>
+	</center>
+      <!-- FOOTER -->
+    <br><br><br><br><br><br><br><br><br><br>  <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work.  -->
+    <script src="js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
