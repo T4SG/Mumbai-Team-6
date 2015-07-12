@@ -46,7 +46,7 @@
               <tbody>
               
 <?php
-$query="select * from schools order by cli_res desc";
+$query="select * from schools";
 $result=mysql_query($query);
 //$rows=mysql_fetch_row($result);
 //var_dump($rows);
