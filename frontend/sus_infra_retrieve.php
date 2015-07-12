@@ -63,7 +63,7 @@ while($row = mysql_fetch_row($result))
                            			<div class="featured-image-info" style="text-align:center;">
                            			<span >
                             			 <h2><?php echo $row[1]; ?></h2>
-                            			 <h3>Impact Score : <?php echo ($row[5]*$row[13])+($row[6]*$row[14])+($row[7]*$row[15])+($row[8]*$row[16])+($row[9]*$row[17]); ?></h3>
+                            			 <h3>Impact Score : <?php echo $row[8]; ?></h3>
                             			 <h3><i class="fa fa-map-marker fa-lg"></i>  Near Goregaon Station</h3>
                           			 </span>
                            			</div>

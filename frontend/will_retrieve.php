@@ -36,14 +36,10 @@
 
             <table class="table table-striped table-responsive">
               <thead>
-                <tr>
-                  <th>#</th>
-                  <th>School name</th>
-                  <th>Willingness</th>
-                  <!--th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th-->
-                </tr>
+              <tr>
+                <td>
+                </td>
+              </tr>
               </thead>
               <tbody>
               
@@ -58,8 +54,26 @@ while($row = mysql_fetch_row($result))
 
 ?>
 <tr>
-<td><?php echo $row[0]; ?></td><td><?php echo $row[1]; ?></td><td><?php echo $row[3]; ?></td>
-</tr>
+               <td>
+                <div class="row">
+                   <div class="col-lg-12">
+                     <div class="col-lg-2">
+                     </div>
+                     <div class="col-lg-8 darken">
+                          <div class="figure"><img class="featured-image" src="<?php echo "$row[20]"; ?>"></div>
+                                <div class="featured-image-info" style="text-align:center;">
+                                <span >
+                                   <h2><?php echo $row[1]; ?></h2>
+                                   <h3>Impact Score : <?php echo $row[6]; ?></h3>
+                                   <h3><i class="fa fa-map-marker fa-lg"></i>  Near Goregaon Station</h3>
+                                 </span>
+                                </div>
+                          </div>
+                     </div>
+                   </div>
+                 </div>
+               </td>
+             </tr>
 
 <?php
 }
